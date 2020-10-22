@@ -46,10 +46,10 @@ class Navbar extends Component {
                   <Link style={{color:"white"}}  to="/hadith" id="hadith" href="#">THE HADITH</Link>
                 </li>
                 <li class="nav-item">
-                  <Link style={{color:"white"}}  to="mosques" id="mosques" href="#">MOSQUES</Link>
+                  <Link style={{color:"white"}}  to="/mosques" id="mosques" href="#">MOSQUES</Link>
                 </li>
                 <li class="nav-item">
-                  <Link style={{color:"white"}}  to="naats" id="naat" href="#">NAAT PLAYER</Link>
+                  <Link style={{color:"white"}}  to="/naats" id="naat" href="#">NAAT PLAYER</Link>
                 </li>
                 <li class="nav-item">
                   <Link style={{color:"white"}}  to="/about" id="about" href="#">ABOUT 99</Link>
