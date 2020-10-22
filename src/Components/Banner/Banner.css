@@ -1,0 +1,60 @@
+#banner{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #741626;
+}
+#border1{
+    width: 100%;
+    margin-top: 0px;
+}
+#border2{
+    width: 100%;
+    margin-top: -05px;
+}
+#white-logo{
+    margin-top: 30px;
+    margin-left: 580px;
+    height: 150px;
+    width: 150px;
+}
+#quranic-ayat{
+    opacity: 0.25;
+    width: 100%;
+    margin-top: -450px;
+    margin-left: 10px;
+    height: 600px;
+}
+#quran-text{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 565px;
+    font-family: calibri;
+}
+
+@media screen and (max-width: 600px) {
+    #white-logo{
+        margin-top: 30px;
+        margin-left: 180px;
+        height: 150px;
+        width: 150px;
+    }
+     #quran-text{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 165px;
+        font-family: calibri;
+    }
+    #border1{
+        width: 100%;
+        margin-top: 0px;
+    }
+    #border2{
+        width: 100%;
+        margin-top: -05px;
+    }
+}

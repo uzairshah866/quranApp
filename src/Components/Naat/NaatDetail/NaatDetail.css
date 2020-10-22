@@ -1,0 +1,81 @@
+ .table{
+  margin-top: 0%;
+  margin-left: 10%;
+  -webkit-box-shadow: 0 3px 8px rgba(163, 150, 150, 0.993);
+  position: absolute;
+  background: #f0eded;;
+  width: 80%;
+  height: auto;
+  border-radius: 3px/3px;
+}
+.table1{
+    margin-top: 0%;
+    margin-left: 14%;
+    -webkit-box-shadow: 0 3px 8px rgba(163, 150, 150, 0.993);
+    position: relative;
+    background: #f0eded;;
+    width: 70%;
+    height: 300px;
+    border-radius: 3px/3px;
+  }
+.table1 #albumPhoto{
+      padding-left: 05%;
+      padding-top: 05%;
+  }
+#playAll{
+      margin-left: 22%;
+      margin-top: -6%;
+  }
+#playAll button{
+      position: relative;
+      border-radius: 20px/20px;
+      width: 15%;
+      height: 40px;
+  }
+.table1 #artistName{
+      position: absolute;
+      font-family: Calibri;
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 22%;
+      margin-top: 5%;
+  }
+
+#viewAll{
+    position: absolute;
+    margin-left: -16%;
+    margin-top: 1%;
+    font-family: "Calibri";
+    font-size: 15px;
+}
+#slid{
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    #playAll{
+        margin-left: 50%;
+        margin-top: -15%;
+    }
+    #playAll button{
+        position: relative;
+        border-radius: 20px/20px;
+        width: 40%;
+        height: 40px;
+    }
+    .table1 #artistName{
+        position: absolute;
+        font-family: Calibri;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    #viewAll{
+        position: absolute;
+        margin-left: 80%;
+        margin-top: -5%;
+        font-family: "Calibri";
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,10 @@
+
+.footer{
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  background-color: #006400;
+  color: white;
+  font-size: 15px;
+  font-family: calibri;
+}
