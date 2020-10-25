@@ -1,0 +1,144 @@
+
+.menuItems{
+    position: absolute;
+    border: none;
+    margin-top: 50px;
+    padding-left: 40px;
+    height: 300px;
+}
+#menu-1{
+    position: relative;
+    width: 170px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+#menu1-text{
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: left;    
+    padding-left: 50px;
+    color: #006400;
+}
+#menu-2{
+    position: relative;
+    width: 170px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#menu2-text{
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: left;    
+    padding-left: 50px;
+    color: #006400;
+}
+#menu-3{
+    position: relative;
+    width: 170px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#menu3-text{
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: left;    
+    padding-left: 70px;
+    color: #006400;
+}
+#menu-4{
+    position: relative;
+    width: 170px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#menu4-text{
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: left;    
+    padding-left: 50px;
+    color: #006400;
+}
+
+ 
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .menuItems {
+      position: relative;
+      right: 0;
+      top: 0;
+      display: block;
+      padding-left: 50px;
+    }
+    #menu-1{
+        position: relative;
+        width: 170px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 105px;
+    }
+    #menu-2{
+        position: relative;
+        width: 170px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 105px;
+    }
+    #menu-3{
+        position: relative;
+        width: 170px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+    #menu-4{
+        position: relative;
+        width: 170px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    #menu1-text{
+        font-size: 30px;
+        font-family: Calibri;
+        font-weight: bold;
+        text-align: left;    
+        padding-left: 0px;
+        margin-left: 78px;
+        color: #006400;
+    }
+    #menu2-text{
+        font-size: 30px;
+        font-family: Calibri;
+        font-weight: bold;
+        text-align: left;    
+        padding-left: 0;
+        margin-left: 115px;
+        color: #006400;
+    }
+    #menu3-text{
+        font-size: 30px;
+        font-family: Calibri;
+        font-weight: bold;
+        text-align: left;    
+        padding-left: 0px;
+        margin-left: 130px;
+        color: #006400;
+    }
+    #menu4-text{
+        font-size: 30px;
+        font-family: Calibri;
+        font-weight: bold;
+        text-align: left;    
+        padding-left: 0;
+        margin-left: 110px;
+        color: #006400;
+    }
+  }
