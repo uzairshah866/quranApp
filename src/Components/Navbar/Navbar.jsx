@@ -52,6 +52,9 @@ class Navbar extends Component {
                   <Link to="/naats" id="naat" href="#">NAAT PLAYER</Link>
                 </li>
                 <li class="nav-item">
+                  <Link to="/naats" id="naat" href="#">NAAT PLAYER</Link>
+                </li>
+                <li class="nav-item">
                   <Link to="/about" id="about" href="#">ABOUT 99</Link>
                 </li>
               </ul>
