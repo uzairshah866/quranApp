@@ -17,7 +17,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="Container">
-        <div className="col-lg-2" id="logodiv">
+        <div className="col-lg-2 shadow bg-white rounded" id="logodiv">
           <Link to="/"><img src="/99.png" /></Link></div>
 
         <div id="contentdiv">

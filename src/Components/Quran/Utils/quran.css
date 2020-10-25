@@ -572,7 +572,7 @@ dd {
 }
 abbr[data-original-title],
 abbr[title] {
-  cursor: help;
+  /* cursor: help; */
   border-bottom: 1px dotted #777;
 }
 .initialism {
@@ -13689,7 +13689,7 @@ li em {
 ._18GCvKRhcweklf213h5OkX a:hover,
 ._18GCvKRhcweklf213h5OkX b:hover {
   color: #2ca4ab;
-  cursor: help;
+  /* cursor: help; */
 }
 ._18GCvKRhcweklf213h5OkX a:focus,
 ._18GCvKRhcweklf213h5OkX b:focus {

@@ -79,7 +79,7 @@ class SurahDetail extends Component {
         { this.getBismillah()}
         <div className="container-fluid _2YLYw6-PFXwkQkNKiNXhFR ">
           <div className="row">
-            <div className="col-md-10 col-md-offset-1">
+            <div className="col-md-10 col-md-offset-1" style={{cursor:"pointer"}}>
               {this.state.data.filter(d => d.SurahNo == this.props.match.params.surahId).map((d) => {
                 return (
 

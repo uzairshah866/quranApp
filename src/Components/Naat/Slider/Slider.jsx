@@ -13,11 +13,14 @@ const cssStyle={
   render() {
     var settings = {
       dots: true,
-      infinite: false,
-      speed: 500,
+      infinite: true,
       slidesToShow: 5,
       slidesToScroll: 3,
       initialSlide: 0,
+      autoplay: true,
+      speed: 7000,
+      autoplaySpeed: 500,
+      cssEase: "linear",
       responsive: [
         {
           breakpoint: 1024,
@@ -53,7 +56,7 @@ const cssStyle={
         </div>
 				<link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-        <Slider className={cssstyle} {...settings}>
+        <Slider className={cssStyle} {...settings}>
           {this.props.data.map(d=>{
             return <Card key={d.id} data={d}></Card>
           })}
