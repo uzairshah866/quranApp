@@ -23,7 +23,7 @@ class DropDown extends Component {
                     <div style={{minWidth:"270px",overflow:"scroll",height:"500px"}} className="dropdown-menu dropdown-menu-left border-1 pl-50"  >
 
                         <div >
-                            <div className="dropdown-item ">
+                            <div className="dropdown-item" style={{backgroundColor:"transparent"}}>
                                 {this.state.data.map(d => {
                                     return (
                                     <Link style={{color:"#741626"}} to={`/surahlist/${d.SurahNo}`}>

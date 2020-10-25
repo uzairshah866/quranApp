@@ -20,17 +20,19 @@
   }
 .table1 #albumPhoto{
       padding-left: 05%;
-      padding-top: 05%;
+      padding-top: 05%; 
   }
-#playAll{
+/* #playAll{
       margin-left: 22%;
-      margin-top: -6%;
-  }
+      margin-top: 5%;
+  } */
 #playAll button{
       position: relative;
       border-radius: 20px/20px;
       width: 15%;
       height: 40px;
+      margin-left: 21%;
+      margin-top: 5%;
   }
 .table1 #artistName{
       position: absolute;
@@ -48,20 +50,22 @@
     font-family: "Calibri";
     font-size: 15px;
 }
-#slid{
+/* #slid{
     margin-left: 20%;
-}
+} */
 
 @media screen and (max-width: 600px) {
-    #playAll{
+    /* #playAll{
         margin-left: 50%;
         margin-top: -15%;
-    }
+    } */
     #playAll button{
         position: relative;
         border-radius: 20px/20px;
-        width: 40%;
+        width: 30%;
         height: 40px;
+        margin-top: 10%;
+        margin-left: 50%;
     }
     .table1 #artistName{
         position: absolute;

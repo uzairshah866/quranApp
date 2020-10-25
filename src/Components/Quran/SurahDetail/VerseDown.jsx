@@ -11,7 +11,7 @@ class VerseDown extends Component {
                 <div  class="dropdown verse-dropdown">
                     <button class="btn btn-white dropdown-toggle position-relative" type="button" id="verseDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="text-left pr-3 text-primary">
-                            <strong> <  span style={{color:"white"}} class="en">Verse 1</span> </strong>
+                            <strong> <  span style={{color:"white"}} className="en">Verse 1</span> </strong>
                         </div>
                     </button>
 
@@ -19,7 +19,7 @@ class VerseDown extends Component {
 
                         <div id="verse-list">
                             {this.props.data.map((d) => {
-                                return (< div class="dropdown-item" data-filter-tags="1">
+                                return (< div class="dropdown-item" data-filter-tags="1" style={{backgroundColor:"transparent"}}>
                                     <Link style={{color:"#741626"}} to={`/surahlist/${this.props.surahId}/${d.AyahNo}`}>
                                         <span class="en">Verse</span> {d.AyahNo}</Link>
                                 </div>)

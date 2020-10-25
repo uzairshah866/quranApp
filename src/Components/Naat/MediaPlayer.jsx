@@ -141,15 +141,7 @@ const audioList1=[{
           }, getAudioInstance(audio) {
             console.log('audio instance', audio)
           },
-          
-
-    }
-
-
-   
-
-
-
+}
 class MediaPlayer extends Component {
     state = { 
         audioList:[],
@@ -184,13 +176,8 @@ class MediaPlayer extends Component {
            
           })
           this.setState({audioList:audioList})
-
-         
-
-
-      }
-  
-    
+}
+      
      onAddAudio = () => {
         this.updateParams({
           clearPriorAudioLists: false,

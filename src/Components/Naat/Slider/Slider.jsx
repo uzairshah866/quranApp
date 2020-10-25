@@ -49,7 +49,7 @@ const cssStyle={
       <div className="container">
         <div  className="row">
         <h1 style={cssStyle} className="col-lg-9 col-md-9 col-sm-9 col-sx-9 p-2">Title</h1>
-        <Link  to=""><h6 className="col-lg-3 col-md-3 col-sm-3 col-xs-3" style={{position:"relative",left:"50%"}} >View All &gt;</h6></Link>
+        <Link><h6 className="col-lg-3 col-md-3 col-sm-3 col-xs-3" style={{position:"relative",left:"50%"}} >View All &gt;</h6></Link>
         </div>
 				<link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
